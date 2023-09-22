@@ -485,7 +485,40 @@
     <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">&</button>
-        <form action=""></form>
+        <h3 class="modal-header">
+          Leave your contacts and we will call you back
+        </h3>
+        <form name="contacts-form">
+          <div>
+            <label class="modal-label" for="name-input">Name</label>
+            <input class="modal-input" id="name-input" type="text" />
+          </div>
+          <div>
+            <label class="modal-label" for="tel-input">Phone</label>
+            <input class="modal-input" id="tel-input" type="tel" />
+          </div>
+          <div>
+            <label class="modal-label" for="email-input">Email</label>
+            <input class="modal-input" id="email-input" type="email" />
+          </div>
+          <div>
+            <label class="modal-label" for="textarea">Comment</label>
+            <textarea
+              class="modal-input textarea"
+              name="comment-textarea"
+              id="textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-checkbox">
+            <input type="checkbox" name="" id="" />
+            <label class="modal-label checkbox-label" for=""
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="button" type="submit">Send</button>
+        </form>
       </div>
     </div>
   </body>
