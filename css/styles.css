@@ -470,3 +470,30 @@ button {
 .subscribe-btn:focus {
   background-color: #404bbf;
 }
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  padding: 80px 0 12px 0;
+}
+.modal {
+  position: relative;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 408px;
+  height: 100%;
+  max-height: 584px;
+  margin: 0 auto;
+  padding: 24px;
+  overflow-y: auto;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50px;
+  border: none;
+  background-color: #e7e9fc;
+  margin-bottom: 24px;
+}
