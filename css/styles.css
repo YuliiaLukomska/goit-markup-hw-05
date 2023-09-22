@@ -524,6 +524,15 @@ button {
   align-items: center;
   padding: 8px;
 }
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border-color: #404bbf;
+}
+.close-icon:hover,
+.close-icon:focus {
+  fill: #ffffff;
+}
 .modal-header {
   color: #2e2f42;
   text-align: center;
