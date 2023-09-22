@@ -495,6 +495,11 @@ button {
   visibility: hidden;
   pointer-events: none;
 }
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .modal {
   position: relative;
   background-color: #fcfcfc;
@@ -514,6 +519,10 @@ button {
   border: none;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
 }
 .modal-header {
   color: #2e2f42;
